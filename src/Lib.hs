@@ -18,7 +18,7 @@ hello = do
   on win #destroy Gtk.mainQuit
   button <- new Gtk.Button [ #label := "Click me"]
   on button #clicked (set button [ #sensitive := False
-                                 , #label := "Thanks for clicking me" ])
+                                 , #label := "ありがとう\nThanks for clicking me" ])
   #add win button
   #showAll win
   Gtk.main
